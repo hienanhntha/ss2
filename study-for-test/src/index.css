@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to top, rgb(67, 188, 236), rgb(150, 221, 241), rgb(218, 241, 247));
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-blue-1: #F0F8FF;
+  --color-blue-2: #84CEEB;
+  --color-blue-3: #5AB9EA;
+  --color-blue-4: #5680E9;
+  --color-purple-1: #C1C8E4;
+  --color-purple-2: #8860D0;
+
+   /* Lighter shades */
+  --color-blue-2-lighter: #a6e0fb;
+  --color-blue-3-lighter: #74caff;
+  --color-blue-4-lighter: #7092f0;
+  --color-purple-1-lighter: #d6dbf5;
+  --color-purple-2-lighter: #9a77e2;
+
+  /* Darker shades */
+  --color-blue-1-darker: #c8e0ff;
+  --color-blue-2-darker: #62b1d7;
+  --color-blue-3-darker: #409ac5;
+  --color-blue-4-darker: #4058b3;
+  --color-purple-1-darker: #949cb3;
+  --color-purple-2-darker: #663da0;
+
+  /* Additional UI component colors */
+  --color-alert: #FF6B6B;
+  --color-success: #4CAF50;
+  --color-info: #29B6F6;
+
+  /* More shades for newly added UI colors */
+  --color-alert-lighter: #ff9b9b;
+  --color-alert-darker: #cc5454;
+  --color-success-lighter: #80e27e;
+  --color-success-darker: #3a8f3a;
+  --color-info-lighter: #63ccff;
+  --color-info-darker: #0086c3;
+
+  --color-logo: #216ca2;
+}
